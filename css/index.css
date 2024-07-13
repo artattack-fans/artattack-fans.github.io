@@ -16,3 +16,8 @@ ul {
 img#promo-poster {
     height: 80vh;
 }
+
+footer {
+    margin-top: 2vw;
+    border-top: solid gray 1px;
+}
