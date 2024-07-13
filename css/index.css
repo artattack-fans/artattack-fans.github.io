@@ -1,8 +1,13 @@
+@font-face {
+    font-family: 'CustomComicSans';
+    src: url('../assets/custom-comic-sans-reg.ttf') format('truetype');
+}
+
 body {
     background-color: black;
     color: white;
     text-align: center;
-    font-family: "Comic Sans MS", serif;
+    font-family: 'CustomComicSans', "Comic Sans MS", serif;
 }
 
 a {
