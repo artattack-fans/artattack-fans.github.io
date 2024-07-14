@@ -31,12 +31,11 @@ footer {
     border-top: solid gray 1px;
 }
 
-a#submission-link {
+#submission-link {
+    display: inline-flex;
     border-radius: 10px;
-    padding: 15px;
     margin: 20px;
-    /*background: linear-gradient(45deg, blue, green, yellow, orange, red);*/
-    background-image: linear-gradient(
+    background: linear-gradient(
         90deg,
         hsl(0, 100%, 40%),
         hsl(30, 100%, 40%),
@@ -52,24 +51,20 @@ a#submission-link {
         hsl(330, 100%, 40%),
         hsl(360, 100%, 40%)
     );
-    opacity: 100%;
 }
 
-a#submission-link:hover {
-    background-image: linear-gradient(
-        90deg,
-        hsl(0, 100%, 20%),
-        hsl(30, 100%, 20%),
-        hsl(60, 100%, 20%),
-        hsl(90, 100%, 20%),
-        hsl(120, 100%, 20%),
-        hsl(150, 100%, 20%),
-        hsl(180, 100%, 20%),
-        hsl(210, 100%, 20%),
-        hsl(240, 100%, 20%),
-        hsl(270, 100%, 20%),
-        hsl(300, 100%, 20%),
-        hsl(330, 100%, 20%),
-        hsl(360, 100%, 20%)
-    );
+#submission-link span {
+    background: rgba(0, 0, 0, 0);
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+
+#submission-link span:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#submission-link a {
+    display: inline-flex;
+    padding: 15px;
 }
