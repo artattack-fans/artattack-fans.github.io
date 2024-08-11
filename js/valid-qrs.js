@@ -8,6 +8,8 @@
 const validQRs = {
 	'1': {}, // test page
 
+
+	////////// ART ATTACK II: PRUNE'S PLACE //////////
 	// QR 1 - CITY //
 	"0d0f6c": {
 		title: "Welcome to the HUNT",
@@ -43,6 +45,8 @@ const validQRs = {
 		title: 'Home Stretch',
 		hint: 'You\'ve completed the HUNT, but can you complete the SECRET PHRASE. Once done - create a piece of art corresponding to the SECRET PHRASE. Write the SECRET PHRASE, the TIME OF COMPLETION, and the AUTHORS on the back. We\'ll be watching.'
 	},
+
+	////////// ART ATTACK II: PRUNE'S PLACE //////////
 
 	// throw em off our trail
 	'901631': { href: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' }, // RR

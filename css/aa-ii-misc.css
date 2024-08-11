@@ -1,0 +1,52 @@
+@keyframes animate-himesh {
+    0% {
+        rotate: 45deg;
+    }
+    50% {
+        rotate: -45deg;
+    }
+    100% {
+        rotate: 45deg;
+    }
+}
+
+@keyframes animate-himesh-right {
+    0% {
+        rotate: -45deg;
+    }
+    50% {
+        rotate: 45deg;
+    }
+    100% {
+        rotate: -45deg;
+    }
+}
+
+.himesh {
+    margin: 1rem 2rem;
+    max-height: 4rem;
+    rotate: 45deg;
+    animation-name: animate-himesh;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    float: left;
+}
+
+.himesh-right {
+    float: right;
+    rotate: -45deg;
+    animation-name: animate-himesh-right;
+}
+
+main {
+    background-image: url("/assets/art-attack-ii/z-prune.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+footer .menus {
+    display: inline-block;
+}

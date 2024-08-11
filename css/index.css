@@ -8,6 +8,7 @@ body {
     color: white;
     text-align: center;
     font-family: 'CustomComicSans', "Comic Sans MS", serif;
+    margin: 0;
 }
 
 a {
@@ -29,6 +30,24 @@ img#promo-poster {
 footer {
     margin-top: 2vw;
     border-top: solid gray 1px;
+}
+
+main {
+    padding: 3rem 0;
+}
+
+main .innerwrap {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+header {
+    background: linear-gradient(-60deg, magenta, cyan, magenta, cyan, magenta, cyan);
+}
+
+header h1 {
+    display: inline-block;
 }
 
 #submission-link {
@@ -67,4 +86,29 @@ footer {
 #submission-link a {
     display: inline-flex;
     padding: 15px;
+}
+
+.logo-absolute {
+    position: absolute;
+    left: 0.5rem;
+    top: 0.5rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+.logo-absolute img {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+.qr-winners img {
+    max-width: 50%;
+}
+
+img.qr {
+   max-width: 10rem;
 }

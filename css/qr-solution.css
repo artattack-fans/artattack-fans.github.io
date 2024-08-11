@@ -1,0 +1,11 @@
+main section pre {
+    text-align: left;
+    text-wrap: wrap;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section img {
+    max-height: 50vh;
+}
