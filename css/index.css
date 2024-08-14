@@ -50,6 +50,10 @@ header h1 {
     display: inline-block;
 }
 
+header img {
+    max-width: 80vw;
+}
+
 #submission-link {
     display: inline-flex;
     border-radius: 10px;

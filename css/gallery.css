@@ -12,7 +12,8 @@ main {
 }
 
 #gallery-select img {
-    height: 10rem;
+    max-height: 10rem;
+    max-width: 80vw;
 }
 
 main#gallery {
