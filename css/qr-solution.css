@@ -1,9 +1,9 @@
-main section pre {
+main section div.hint {
     text-align: left;
-    text-wrap: wrap;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
+    font-family: monospace;
 }
 
 section img {

@@ -116,3 +116,7 @@ button {
 img.qr {
    max-width: 10rem;
 }
+
+img {
+    max-width: 100%;
+}
