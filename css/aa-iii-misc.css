@@ -1,0 +1,21 @@
+header.spooktober {
+    background: linear-gradient(60deg, black, orange, black, orange, black);
+    display: none;
+}
+
+main.spooktober {
+    background-image: none;
+}
+
+div.himbat {
+    display: block;
+}
+
+div.himbat img {
+    height: 5rem;
+    display: inline-block;
+}
+
+div.himbat div {
+    display: inline-block;
+}
