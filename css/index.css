@@ -46,6 +46,15 @@ header {
     background: linear-gradient(-60deg, magenta, cyan, magenta, cyan, magenta, cyan);
 }
 
+header.spooktober {
+    background: linear-gradient(60deg, black, orange, black, orange, black);
+    display: none;
+}
+
+main.spooktober {
+    background-image: none;
+}
+
 header h1 {
     display: inline-block;
 }

@@ -50,3 +50,7 @@ main {
 footer .menus {
     display: inline-block;
 }
+
+footer .menus div {
+    display: block;
+}
