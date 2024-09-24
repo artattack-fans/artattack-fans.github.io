@@ -4,7 +4,10 @@ header.spooktober {
 }
 
 main.spooktober {
-    background-image: none;
+    background-image: url("/assets/art-attack-iii/flame.gif");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 4rem;
 }
 
 @media screen and (min-height: 900px) {
@@ -15,6 +18,7 @@ main.spooktober {
 
 div.himbat {
     display: block;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 div.himbat img {
