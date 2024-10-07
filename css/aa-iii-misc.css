@@ -4,7 +4,7 @@ header.spooktober {
 }
 
 main.spooktober {
-    background-image: url("/assets/art-attack-iii/flame.gif");
+    background-image: none;
     background-repeat: repeat;
     background-position: center;
     background-size: 4rem;
