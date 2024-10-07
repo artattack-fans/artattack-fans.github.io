@@ -25,6 +25,12 @@ div.himbat {
     font-weight: bold;
     display: block;
     background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+div.himbat a {
+    color: #a21000;
+    font-size: 1.25rem;
 }
 
 div.himbat img {
