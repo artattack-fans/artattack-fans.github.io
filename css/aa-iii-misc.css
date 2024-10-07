@@ -16,7 +16,13 @@ main.spooktober {
     }
 }
 
+.poster {
+    height: 80vh;
+}
+
 div.himbat {
+    font-family: twilight, serif;
+    font-weight: bold;
     display: block;
     background-color: rgba(0, 0, 0, 0.7);
 }
