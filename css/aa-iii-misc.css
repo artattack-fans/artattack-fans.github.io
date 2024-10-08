@@ -10,12 +10,6 @@ main.spooktober {
     background-size: 4rem;
 }
 
-@media screen and (min-height: 900px) {
-    main.spooktober {
-        padding: 20vh 0;
-    }
-}
-
 .poster {
     height: 80vh;
 }
