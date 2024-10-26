@@ -3,10 +3,44 @@
 // I don't appreciate that
 
 // to generate new QR codes
-// window.crypto.randomUUID().replaceAll('-', '').substring(0, 5)
+// window.crypto.randomUUID().replaceAll('-', '').substring(0, 6)
 
 const validQRs = {
 	'1': {}, // test page
+
+	////////// ART ATTACK III: TWILIGHT ZONE //////////
+
+	// https://artattack.fans/qr/?i=905fae
+	'905fae': {
+		title: "welcome back to the HUNT",
+		hint: "There are many QR codes hidden throughout ART ATTACK III: TWILIGHT ZONE\n\nCollect all the words, and see what they say.\n\nCan you discover them all? And win ART ATTACK III: TWILIGHT ZONE.\n\nHINT: Up above the world so high\nEdward looks down on your from the sky."
+	},
+
+	'a92b49': {
+		title: 'soaring high',
+		hint: 'like BELLA after the breakup, seek out EDWARD\'s visage\nhe holds what you seek'
+	},
+
+	'4b526c': {
+		title: 'a portrait of sorrow',
+		hint: 'EDWARD proved his olypic reflexes to catch this fruit\nseek it\'s spooky version'
+	},
+
+	'8cf67a': {
+		title: 'an apple firmly grasped',
+		hint: 'like BELLA in the CUCK TENT, seek out the spicy warmth of another. drink it down and hold it close'
+	},
+
+	'506361': {
+		title: 'sugar, spice, everything nice',
+		hint: 'we are all VEGETARIANs here\nfeast upon this deer to claim you final prize'
+	},
+
+	'a900ff': {
+		title: 'the heart of the beast',
+		hint: 'you\'ve completed the HUNT, but can you complete the SECRET PHRASE. once done - create a piece of art corresponding to the SECRET PHRASE. write the SECRET PHRASE, the TIME OF COMPLETION, and the AUTHORS on the back. attach it someplace prominent. we\'ll be watching.'
+	},
+
 
 
 	////////// ART ATTACK II: PRUNE'S PLACE //////////
@@ -56,6 +90,12 @@ const validQRs = {
 	'53d72c': { href: 'https://www.youtube.com/watch?v=_wxU3z9VxOY' }, // Something About Zelda Tears of the Kingdom
 	'3c6731': { href: 'https://www.youtube.com/watch?v=CsGYh8AacgY' }, // Charlie the unicorn
 	'833170': { href: 'https://www.youtube.com/watch?v=OQaLic5SE_I' }, // K+P Substitute teacher
+
+
+	// new for AA III //
+	'db8125': {href: 'https://www.youtube.com/watch?v=0EqSXDwTq6U'}, // charlie bit my finger
+	'5c2952': {href: 'https://www.youtube.com/watch?v=dL2FWc29fC0'}, // morbin
+	'58c0bc': {href: 'https://www.youtube.com/watch?v=NFcRmAjaiOU'}, // olympic athlete
 };
 
 const validQRKeys = Object.keys(validQRs);
