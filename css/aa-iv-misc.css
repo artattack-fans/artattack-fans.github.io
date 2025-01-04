@@ -1,0 +1,28 @@
+header {
+    background: black none;
+    display: none;
+}
+
+main {
+    background-image: url("/assets/art-attack-iv/snow.gif");
+    background-repeat: repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+main .innerwrap h2 {
+    margin-top: 40vh;
+}
+
+div.himbat a {
+    color: #a21000;
+    font-size: 1.25rem;
+}
+
+footer ul {
+    margin: 0;
+}
+
+footer div {
+    padding: 1rem;
+}

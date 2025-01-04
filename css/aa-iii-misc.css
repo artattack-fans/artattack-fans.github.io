@@ -3,6 +3,14 @@ header.spooktober {
     display: none;
 }
 
+header.spooky-gallery {
+    background: black none;
+}
+
+header.spooky-gallery img {
+    max-height: 14rem;
+}
+
 main.spooktober {
     background-image: none;
     background-repeat: repeat;
@@ -33,4 +41,12 @@ div.himbat img {
 
 div.himbat div {
     display: inline-block;
+}
+
+footer ul {
+    margin: 0;
+}
+
+footer div {
+    padding: 1rem;
 }
