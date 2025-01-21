@@ -11,7 +11,6 @@ main {
 }
 
 main .innerwrap h2 {
-    margin-top: 40vh;
 }
 
 div.himbat a {
@@ -23,6 +22,21 @@ footer ul {
     margin: 0;
 }
 
+.innerwrap img {
+    max-height: 30vh;
+    max-width: 40vw;
+}
+
 footer div {
     padding: 1rem;
+}
+
+h2#aa-title a {
+    font-family: doto, serif;
+    color: #e801ea;
+    font-size: 3rem;
+}
+
+@media screen and (min-width:480px) {
+
 }

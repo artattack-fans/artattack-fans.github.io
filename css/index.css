@@ -8,6 +8,11 @@
     src: url('/assets/fonts/twilight.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'doto';
+    src: url('/assets/fonts/Doto_Rounded-Regular.ttf') format('truetype');
+}
+
 body {
     background-color: black;
     color: white;
@@ -124,4 +129,8 @@ img.qr {
 
 img {
     max-width: 100%;
+}
+
+.img-flip {
+    transform: scaleX(-1);
 }
