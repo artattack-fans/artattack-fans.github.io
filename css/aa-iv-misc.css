@@ -7,6 +7,9 @@ main {
     background-image: url("/assets/art-attack-iv/snow.gif");
     background-repeat: repeat;
     background-position: center;
+}
+
+main#teaser {
     height: 100vh;
 }
 
@@ -22,9 +25,13 @@ footer ul {
     margin: 0;
 }
 
-.innerwrap img {
+main#teaser .innerwrap img {
     max-height: 30vh;
     max-width: 40vw;
+}
+
+.lightning-wrap img {
+    max-height: 10vh;
 }
 
 footer div {
