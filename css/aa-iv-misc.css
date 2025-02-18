@@ -47,3 +47,14 @@ h2#aa-title a {
 @media screen and (min-width:480px) {
 
 }
+
+#submission-link {
+    display: inline-flex;
+    border-radius: 10px;
+    margin: 20px;
+    background: linear-gradient(
+            90deg,
+            hsl(300, 100%, 40%),
+            hsl(120, 100%, 40%)
+    );
+}

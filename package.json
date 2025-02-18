@@ -5,11 +5,13 @@
   "main": "test-server/index.js",
   "scripts": {
     "start": "node test-server/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mania-jsonify": "node z-build-scripts/yaml2json.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "yamljs": "^0.3.0"
   }
 }
