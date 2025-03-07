@@ -96,6 +96,13 @@ const validQRs = {
 	'db8125': {href: 'https://www.youtube.com/watch?v=0EqSXDwTq6U'}, // charlie bit my finger
 	'5c2952': {href: 'https://www.youtube.com/watch?v=dL2FWc29fC0'}, // morbin
 	'58c0bc': {href: 'https://www.youtube.com/watch?v=NFcRmAjaiOU'}, // olympic athlete
+
+	/// ART ATTACK IV ///
+	// only a starting one
+	'5b53d8': {
+		title: 'welcome back',
+		hint: 'find the creatures of\nFAMILY BLESSINGS\nthree\n\nand thine goal will be revealed to\nthee\n\nBLESS OUR HOME'
+	}
 };
 
 const validQRKeys = Object.keys(validQRs);
