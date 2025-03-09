@@ -2,6 +2,6 @@
 
 document.addEventListener('readystatechange', () => {
 	const qrRef = new URLSearchParams(window.location.search).get('i');
-	document.querySelector('#title').innerText = validQRs[qrRef].title;
-	document.querySelector('#hint').innerText = validQRs[qrRef].hint;
+	document.querySelector('#title').innerText = valid[qrRef].title;
+	document.querySelector('#hint').innerText = valid[qrRef].hint;
 });

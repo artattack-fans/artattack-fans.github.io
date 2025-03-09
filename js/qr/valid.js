@@ -5,7 +5,7 @@
 // to generate new QR codes
 // window.crypto.randomUUID().replaceAll('-', '').substring(0, 6)
 
-const validQRs = {
+const valid = {
 	'1': {}, // test page
 
 	////////// ART ATTACK III: TWILIGHT ZONE //////////
@@ -105,4 +105,4 @@ const validQRs = {
 	}
 };
 
-const validQRKeys = Object.keys(validQRs);
+const validQRKeys = Object.keys(valid);

@@ -5,14 +5,14 @@ const runSearch = () => {
 
 	console.info(qrRef);
 	if (qrRef === '1')
-		window.location.href = './test.html';
+		window.location.href = '/qr/test.html';
 	else if (validQRKeys.includes(qrRef)) {
-		if (validQRs[qrRef].href)
-			window.location.href = validQRs[qrRef].href;
+		if (valid[qrRef].href)
+			window.location.href = valid[qrRef].href;
 		else
-			window.location.href = './hit.html?i=' + qrRef;
+			window.location.href = '/qr/hit.html?i=' + qrRef;
 	} else
-		window.location.href = '../qr-fail.html?i=' + qrRef;
+		window.location.href = '/qr/miss.html?i=' + qrRef;
 };
 
 runSearch();
