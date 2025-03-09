@@ -1,0 +1,57 @@
+const SPECIFIC_GALLERY_LISTING = `
+IMG_0271 Large.jpeg
+IMG_0267 Large.jpeg
+2025030814312594072 Medium.jpeg
+202503081423395060 Medium.jpeg
+2025030814213558012 Medium.jpeg
+2025030814231231027 Medium.jpeg
+2025030814281212312 Medium.jpeg
+20250308140712884483 Medium.jpeg
+20250308140814081227 Medium.jpeg
+20250308140853049399 Medium.jpeg
+20250308141032480266 Medium.jpeg
+20250308141057328187 Medium.jpeg
+20250308141135067202 Medium.jpeg
+20250308141207054164 Medium.jpeg
+20250308141258737452 Medium.jpeg
+20250308141326307253 Medium.jpeg
+20250308141447536371 Medium.jpeg
+20250308141525096349 Medium.jpeg
+20250308141640669408 Medium.jpeg
+20250308141656744389 Medium.jpeg
+20250308141813791200 Medium.jpeg
+20250308141923858186 Medium.jpeg
+20250308142014270135 Medium.jpeg
+20250308142104063454 Medium.jpeg
+20250308142421979433 Medium.jpeg
+20250308142630330401 Medium.jpeg
+20250308142928391436 Medium.jpeg
+20250308143020639238 Medium.jpeg
+20250308143157865135 Medium.jpeg
+20250308143233067217 Medium.jpeg
+IMG_0268 Large.jpeg
+IMG_0269 Large.jpeg
+IMG_0218 Large.jpeg
+IMG_0219 Large.jpeg
+IMG_0220 Large.jpeg
+IMG_0221 Large.jpeg
+IMG_0222 Large.jpeg
+IMG_0223 Large.jpeg
+IMG_0224 Large.jpeg
+IMG_0225 Large.jpeg
+IMG_0226 Large.jpeg
+IMG_0227 Large.jpeg
+IMG_0228 Large.jpeg
+IMG_0229 Large.jpeg
+IMG_0230 Large.jpeg
+IMG_0051.jpg
+IMG_0168.jpg
+`.trim().split('\n').map(el => 'gallery/' + el).join('\n');
+
+const GALLERY_LISTING = SPECIFIC_GALLERY_LISTING + `
+AA_IV_TITLE.png
+ART-ATTACK-IV-family-blessings-teaser.png
+thank-you.jpeg
+`;
+
+const getPrefix = () => "/assets/art-attack-iv/";

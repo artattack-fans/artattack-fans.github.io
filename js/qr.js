@@ -12,7 +12,7 @@ const runSearch = () => {
 		else
 			window.location.href = './hit.html?i=' + qrRef;
 	} else
-		window.location.href = '../qr-fail.html';
+		window.location.href = '../qr-fail.html?i=' + qrRef;
 };
 
 runSearch();
