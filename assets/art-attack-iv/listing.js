@@ -51,7 +51,7 @@ IMG_0168.jpg
 const GALLERY_LISTING = SPECIFIC_GALLERY_LISTING + `
 AA_IV_TITLE.png
 ART-ATTACK-IV-family-blessings-teaser.png
-thank-you.jpeg
+gallery/thank-you.png
 `;
 
 const getPrefix = () => "/assets/art-attack-iv/";
