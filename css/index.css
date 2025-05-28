@@ -13,6 +13,11 @@
     src: url('/assets/fonts/Doto_Rounded-Regular.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'cyber-brush';
+    src: url('/assets/fonts/Cyber_Brush.ttf') format('truetype');
+}
+
 body {
     background-color: black;
     color: white;
@@ -40,7 +45,7 @@ img#promo-poster {
 }
 
 footer {
-    margin-top: 2vw;
+    padding-top: 2vw;
     border-top: solid gray 1px;
 }
 

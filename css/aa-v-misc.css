@@ -1,0 +1,17 @@
+header {
+    background: rgba(0,0,0,0.5);
+    font-family: cyber-brush, serif;
+    border-bottom-color: #f1b746;
+}
+
+header h1 {
+    color: #f1b746;
+}
+
+main img {
+    width: 10rem;
+}
+
+main img.promo {
+    width: 40vw;
+}
