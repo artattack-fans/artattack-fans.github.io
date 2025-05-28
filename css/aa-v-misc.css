@@ -1,11 +1,20 @@
+:root {
+    --orange: #f1b746;
+    --line-col: #222;
+}
+
 header {
     background: rgba(0,0,0,0.5);
     font-family: cyber-brush, serif;
-    border-bottom-color: #f1b746;
+    background: linear-gradient(90deg, black 0%, black 40%, var(--line-col) 40%, var(--line-col) 45%, black 45%, black 55%, var(--line-col) 55%, var(--line-col) 60%, black 60%, black 100%);
+}
+
+header hr {
+    border-color: var(--orange);
 }
 
 header h1 {
-    color: #f1b746;
+    color: var(--orange);
 }
 
 main img {
