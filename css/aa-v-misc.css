@@ -22,5 +22,7 @@ main img {
 }
 
 main img.promo {
-    width: 40vw;
+    width: auto;
+    max-width: 80vw;
+    max-height: 90vh;
 }
