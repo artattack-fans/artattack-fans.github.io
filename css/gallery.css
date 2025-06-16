@@ -20,6 +20,10 @@ main#gallery {
     width: 100%;
 }
 
+main img {
+    width: auto;
+}
+
 div.gallery-item {
     width: 45%;
     display: inline-block;
@@ -41,6 +45,7 @@ div.gallery-item img {
 }
 
 #display-detail {
+    width: auto;
     max-width: 90vw;
     max-height: 90vh;
     margin-top: 5vh;
