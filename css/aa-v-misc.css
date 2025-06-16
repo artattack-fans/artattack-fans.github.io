@@ -25,4 +25,5 @@ main img.promo {
     width: auto;
     max-width: 80vw;
     max-height: 90vh;
+    min-height: 50vh;
 }
