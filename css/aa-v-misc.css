@@ -27,3 +27,7 @@ main img.promo {
     max-height: 90vh;
     min-height: 50vh;
 }
+
+#inspo img {
+    width: 15rem;
+}
