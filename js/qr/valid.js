@@ -102,6 +102,34 @@ const valid = {
 	'5b53d8': {
 		title: 'welcome back',
 		hint: 'find the creatures of\nFAMILY BLESSINGS\nthree\n\nand thine goal will be revealed to\nthee\n\nBLESS OUR HOME'
+	},
+
+	/// ART ATTACK V ///
+	'56975f': {href: 'https://www.youtube.com/watch?v=RUqiOY8Lo0E'}, // KACHOW
+	'717149': {href: 'https://www.youtube.com/watch?v=vxiVYEjp0Ww'}, // WOW
+	'fa8341': {
+		// CLUE_1
+		title: 'welcome back'
+	},
+	'ab85ae': {
+		// CLUE_2
+		title: 'NICE 2'
+	},
+	'4c36a8': {
+		// CLUE_3
+		title: 'NICE 3'
+	},
+	'c7f932': {
+		// CLUE_4
+		title: 'NICE 4'
+	},
+	'25b7b5': {
+// CLUE_5
+		title: 'NICE 5'
+	},
+	'373f2d': {
+// CLUE_6
+		title: 'NICE 6'
 	}
 };
 
