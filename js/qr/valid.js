@@ -23,7 +23,7 @@ const valid = {
 
 	'4b526c': {
 		title: 'a portrait of sorrow',
-		hint: 'EDWARD proved his olypic reflexes to catch this fruit\nseek it\'s spooky version'
+		hint: 'EDWARD proved his olympic reflexes to catch this fruit\nseek it\'s spooky version'
 	},
 
 	'8cf67a': {
@@ -105,31 +105,44 @@ const valid = {
 	},
 
 	/// ART ATTACK V ///
-	'56975f': {href: 'https://www.youtube.com/watch?v=RUqiOY8Lo0E'}, // KACHOW
-	'717149': {href: 'https://www.youtube.com/watch?v=vxiVYEjp0Ww'}, // WOW
+	'56975f': { href: 'https://www.youtube.com/watch?v=RUqiOY8Lo0E' }, // KACHOW
+	'717149': { href: 'https://www.youtube.com/watch?v=vxiVYEjp0Ww' }, // WOW
 	'fa8341': {
 		// CLUE_1
-		title: 'welcome back'
+		title: 'welcome back',
+		htmlHint: '<p>once upon a time, KIRBY and his FIVE FRIENDS were having a picnic the day before ART ATTACK, their hearts full of joy</p>' +
+			'<img src="/assets/art-attack-v/KIRBY-FRIEND-PICNIC.jpg" alt="KIRBY and his FRIENDS" style="height: 30rem; width: auto"/>' +
+			'<p>KIRBY excitedly played with his racecars until late into the night... at which point he noticed all his friends had gone missing, leaving behind only the first word of a SECRET CODE: LOVE</p>' +
+			'<p>he also heard his friends say something about a PHOTO WALL in case he was ever curious about where they might be... weird</p>' +
+			'<p>help KIRBY find all his friends before the RACE ends and piece together the SECRET CODE</p>' +
+			'<p>to complete the HUNT, write your NAME, the SECRET CODE, and your TIME OF COMPLETION on the back of a MOTIVATIONAL POSTER and post it somewhere in the room</p>' +
+			'<p>PLEASE DO NOT TOUCH ANY OF THE RACE COURSE - ALL OF KIRBY\s FRIENDS KNOW NOT TO HIDE THERE</p>' +
+			'<p>we\'ll we watching</p>'
 	},
 	'ab85ae': {
 		// CLUE_2
-		title: 'NICE 2'
+		title: 'rawr you FOUND ME',
+		hint: 'SECRET CODE word: FRIENDS'
 	},
 	'4c36a8': {
 		// CLUE_3
-		title: 'NICE 3'
+		title: 'screeeeecaaaaww you FOUND ME',
+		hint: 'SECRET CODE word: YOUR'
 	},
 	'c7f932': {
 		// CLUE_4
-		title: 'NICE 4'
+		title: 'grumble grumble you FOUND ME',
+		hint: 'SECRET CODE word: DOMINATE'
 	},
 	'25b7b5': {
 // CLUE_5
-		title: 'NICE 5'
+		title: 'quack quack, i thought i\'d never be FOUND',
+		hint: 'SECRET CODE word: YOUR'
 	},
 	'373f2d': {
 // CLUE_6
-		title: 'NICE 6'
+		title: 'quiggly quaggly, boooo you FOUND ME',
+		hint: 'SECRET CODE word: RIVALS'
 	}
 };
 
