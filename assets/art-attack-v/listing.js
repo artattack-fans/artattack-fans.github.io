@@ -3,6 +3,9 @@
 // `.trim().split('\n').map(el => 'gallery/' + el).join('\n');
 
 const GALLERY_LISTING = `
+scenes/scene-30.jpeg
+scenes/scene-32.jpeg
+scenes/scene-31.jpeg
 scenes/scene-0.jpeg
 scenes/scene-8.jpeg
 scenes/scene-5.jpeg
