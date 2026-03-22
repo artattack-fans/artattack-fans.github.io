@@ -1,0 +1,129 @@
+:root {
+    --orange: #f1b746;
+    --line-col: #222;
+}
+
+main {
+    background-image: url("/assets/art-attack-vi/cave-bg.png");
+    background-position: bottom;
+    background-size: cover;
+    font-family: "Comic Sans MS", serif;
+}
+
+
+main img.promo {
+    width: auto;
+    max-width: 80vw;
+    max-height: 90vh;
+    min-height: 50vh;
+}
+
+div#submission-link-vi {
+    display: inline-flex;
+    border-radius: 10px;
+    margin: 20px;
+    background: #2e7d32;
+}
+
+div#submission-link-vi a {
+    display: inline-flex;
+    padding: 15px;
+}
+
+.bg-fade-in {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* timeline */
+:root {
+    /* Modify these two colors to change the theme */
+    --start-color: #5d4037; /* Brown */
+    --end-color: #2e7d32;   /* Green */
+    --item-width: 60px;
+}
+
+.timeline-wrapper {
+    margin: 2rem 0;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background: #1a1a1a; /* Darker background looks better for auto-scroll */
+}
+
+.timeline-wrapper:first-of-type {
+    margin-top: 0;
+}
+
+.timeline-container {
+    display: flex;
+    background: linear-gradient(to right, var(--start-color), var(--end-color));
+    width: max-content;
+    padding: 10px;
+}
+
+.month-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: var(--item-width);
+    color: white;
+    font-family: sans-serif;
+    border-right: 1px solid #f3ede5;
+    padding: 5px 0;
+}
+
+.month-item:last-child {
+    border-right: none;
+}
+
+.month-label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.year-label {
+    font-size: 0.7rem;
+    opacity: 0.9;
+}
+
+@keyframes scroll-timeline {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        /* We move it left by its full width, minus 100% (the screen width)
+           so it stops exactly at the end of April 2026
+        */
+        transform: translateX(calc(-100% + 100vw));
+    }
+}
+
+@keyframes scroll-timeline-invert {
+    0% {
+        transform: translateX(calc(-100% + 100vw));
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.timeline-container {
+    display: flex;
+    width: max-content;
+    background: linear-gradient(to right, var(--start-color), var(--end-color));
+    padding: 5px 0;
+    animation: scroll-timeline 300s linear infinite alternate;
+    contain: layout;
+
+    will-change: transform;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+.timeline-container.invert {
+    animation: scroll-timeline-invert 300s linear infinite alternate;
+}

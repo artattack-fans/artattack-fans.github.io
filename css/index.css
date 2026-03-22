@@ -60,6 +60,18 @@ main .innerwrap {
     margin-left: 5%;
 }
 
+.innerwrap-80 {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.innerwrap-70 {
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
 header {
     background: linear-gradient(-60deg, magenta, cyan, magenta, cyan, magenta, cyan);
 }
