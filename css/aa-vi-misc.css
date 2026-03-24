@@ -127,3 +127,42 @@ div#submission-link-vi a {
 .timeline-container.invert {
     animation: scroll-timeline-invert 300s linear infinite alternate;
 }
+
+/* The main wrapper */
+.grid-container {
+    display: grid;
+    /* Creates two equal columns */
+    grid-template-columns: 1fr 1fr;
+    /* Adjust height as needed */
+    gap: 20px;
+}
+
+/* The individual cells */
+.grid-item {
+    display: flex;
+    /* Horizontal centering */
+    justify-content: center;
+    /* Vertical centering */
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.grid-item div {
+    display: block;
+}
+
+/* Ensure images don't break the layout */
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    max-height: 20rem;
+}
+
+/* Responsive: Stack columns on mobile */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
