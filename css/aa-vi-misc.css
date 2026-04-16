@@ -73,7 +73,7 @@ div#submission-link-vi a {
 }
 
 .month-item.short {
-    width: 0rem;
+    width: 0;
 }
 
 .month-item:last-child {
