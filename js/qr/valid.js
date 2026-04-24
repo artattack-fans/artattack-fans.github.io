@@ -135,14 +135,44 @@ const valid = {
 		hint: 'SECRET CODE word: DOMINATE'
 	},
 	'25b7b5': {
-// CLUE_5
+		// CLUE_5
 		title: 'quack quack, i thought i\'d never be FOUND',
 		hint: 'SECRET CODE word: YOUR'
 	},
 	'373f2d': {
-// CLUE_6
+		// CLUE_6
 		title: 'quiggly quaggly, boooo you FOUND ME',
 		hint: 'SECRET CODE word: RIVALS'
+	},
+
+	/// ART ATTACK VI ///
+	// https://artattack.fans/qr/?i=f38c3b
+	'f38c3b': {
+		title: 'welcome back - ONE',
+		htmlHint: '<p>prepare to traverse TIME and SPACE, LIGHT and DARK to find your GOAL</p>' +
+			'<p>there are two HUNTs this ART ATTACK</p>' +
+			'<p><b>HUNT ONE</b>: the SCRAMBLE for the SCRAMBLE</p>' +
+			'<bp><b>HUNT TWO</b>: rabbit hunt collect-a-thon</p>'
+	},
+	'3fbd2f': {
+		title: 'TWO',
+		hint: ''
+	},
+	'84c634': {
+		title: 'THREE',
+		hint: ''
+	},
+	'0ec28d': {
+		title: 'FOUR',
+		hint: ''
+	},
+	'81491e': {
+		title: 'FIVE',
+		hint: ''
+	},
+	'22236e': {
+		title: 'SIX',
+		hint: ''
 	}
 };
 
