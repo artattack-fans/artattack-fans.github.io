@@ -149,30 +149,37 @@ const valid = {
 	// https://artattack.fans/qr/?i=f38c3b
 	'f38c3b': {
 		title: 'welcome back - ONE',
-		htmlHint: '<p>prepare to traverse TIME and SPACE, LIGHT and DARK to find your GOAL</p>' +
-			'<p>there are two HUNTs this ART ATTACK</p>' +
-			'<p><b>HUNT ONE</b>: the SCRAMBLE for the SCRAMBLE</p>' +
-			'<bp><b>HUNT TWO</b>: rabbit hunt collect-a-thon</p>'
+		htmlHint: '<p>prepare to traverse TIME and SPACE, LIGHT and DARK to find your GOAL and ETERNAL GLORY</p>' +
+			'<code>SECRET WORD: FOR</code>' +
+			'<p><b>FIRST HINT</b>: find the PROGENITORS of the first ART ATTACK </p>'
 	},
 	'3fbd2f': {
 		title: 'TWO',
-		hint: ''
+		hint: '<code>SECRET WORD: ART</code>' +
+			'<p><b>NEXT HINT</b>: educate yourself on how to MAKE WINDOWS 95 DO SOMETHING</p>'
 	},
 	'84c634': {
 		title: 'THREE',
-		hint: ''
+		hint: '<code>SECRET WORD: GLORY</code>' +
+			'<p><b>NEXT HINT</b>: icons of ART ATTACK (PRUNE, or who could forget poor, cursed LITTLE MOO MOO) look down on you; find them and find your next OBJECTIVE</p>'
 	},
 	'0ec28d': {
 		title: 'FOUR',
-		hint: ''
+		htmlHint: '<code>SECRET WORD: ATTACK</code>' +
+			'<p><b>NEXT HINT</b>: it\'s FIVE O\'CLOCK somewhere</p>'
 	},
 	'81491e': {
 		title: 'FIVE',
-		hint: ''
+		htmlHint: '<code>SECRET WORD: GUTS</code>' +
+			'<p><b>NEXT HINT</b>: find SIX (fake) FIRES burning brightly</p>'
 	},
 	'22236e': {
 		title: 'SIX',
-		hint: ''
+		htmlHint: '<code>SECRET WORD: AND</code>' +
+			'<p>you\'ve completed the HUNT, but can you complete the SECRET PHRASE?</p>' +
+			'<p>once done - create a piece of art corresponding to the SECRET PHRASE</p>' +
+			'<p>write the SECRET PHRASE, the TIME OF COMPLETION, and the AUTHORS on the back' +
+			'<p>we\'ll be watching.</p>'
 	}
 };
 
