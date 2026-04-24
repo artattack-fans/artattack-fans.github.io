@@ -159,22 +159,22 @@ const valid = {
 			'<p><b>NEXT HINT</b>: educate yourself on how to MAKE WINDOWS 95 DO SOMETHING</p>'
 	},
 	'84c634': {
-		title: '',
+		title: 'GLORY to the VICTORS',
 		htmlHint: '<p><b>SECRET WORD: GLORY</b></p>' +
 			'<p><b>NEXT HINT</b>: icons of ART ATTACK (PRUNE, or who could forget poor, cursed LITTLE MOO MOO) look down on you; find them and find your next OBJECTIVE</p>'
 	},
 	'0ec28d': {
-		title: 'FOUR',
+		title: 'PRAISE be to PRUNE',
 		htmlHint: '<p><b>SECRET WORD: ATTACK</b></p>' +
 			'<p><b>NEXT HINT</b>: it\'s FIVE O\'CLOCK somewhere</p>'
 	},
 	'81491e': {
-		title: 'FIVE',
+		title: 'margarita time bb',
 		htmlHint: '<p><b>SECRET WORD: GUTS</b></p>' +
 			'<p><b>NEXT HINT</b>: find SIX (fake) FIRES burning brightly</p>'
 	},
 	'22236e': {
-		title: 'SIX',
+		title: 'feeling the HEAT yet?',
 		htmlHint: '<p><b>SECRET WORD: AND</b></p>' +
 			'<p>you\'ve completed the HUNT, but can you complete the SECRET PHRASE?</p>' +
 			'<p>once done - create a piece of art corresponding to the SECRET PHRASE</p>' +
