@@ -169,3 +169,7 @@ div#submission-link-vi a {
         grid-template-columns: 1fr;
     }
 }
+
+header {
+    background: conic-gradient(greenyellow, saddlebrown, greenyellow, saddlebrown, greenyellow, saddlebrown, greenyellow);
+}
