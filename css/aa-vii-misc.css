@@ -1,3 +1,120 @@
+:root {
+    --orange: #FF5F1F;
+}
+
 main {
     background-image: url("/assets/art-attack-vii/static.gif");
+    font-family: "digital7", serif;
+    margin: 0;
+    padding: 0;
+}
+
+main > div {
+    background-color: rgba(0, 0, 0, 0.4);
+    min-height: 100vh;
+}
+
+.promo {
+    max-height: 30rem;
+    margin-bottom: 3rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.orange {
+    color: var(--orange);
+}
+
+.white {
+    color: white;
+}
+
+.green {
+    color: yellowgreen;
+}
+
+.sans {
+    font-family: 'CustomComicSans', sans-serif;
+}
+
+.emph {
+    color: var(--orange);
+    text-shadow: black 2px 2px;
+}
+
+.emph-off {
+    color: greenyellow;
+    text-shadow: black 2px 2px;
+}
+
+.logo {
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+.logo p {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.impact {
+    font-family: Impact, serif;
+    text-shadow: black 2px 2px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    text-shadow: black 2px 2px;
+}
+
+.header p, .header img {
+    display: inline-flex;
+}
+
+.header {
+    font-size: 1.5rem;
+}
+
+.mosaic-separator {
+    background-image: url("/assets/art-attack-vii/tile.png");
+    height: 50px;
+    background-size: contain;
+}
+
+.left-right {
+    display: flex;
+    align-items: center;           /* vertically center the image and text */
+    justify-content: space-around; /* push them to opposite sides */
+    padding: 0 3rem;
+}
+
+.left-right img {
+    display: block;
+}
+
+.left-right p {
+    margin: 0 1rem;
+    text-align: right;
+}
+
+.left-right img {
+    max-height: 10rem;
+}
+
+.win95 {
+    background-image: url("/assets/art-attack-vii/win95.jpg");
+    background-position: top;
+    background-size: cover;
+    color: #FF5F1F;
+    text-shadow: black 2px 2px;
+    font-family: Impact, serif;
+}
+
+.win95 p {
+    margin: 0;
 }

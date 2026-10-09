@@ -20,6 +20,11 @@
     src: url('/assets/fonts/Cyber_Brush.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'digital7';
+    src: url('/assets/fonts/Digital7.ttf') format('truetype');
+}
+
 body {
     background-color: black;
     color: white;
