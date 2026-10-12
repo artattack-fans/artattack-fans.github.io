@@ -85,23 +85,7 @@ p {
     background-size: contain;
 }
 
-.left-right {
-    display: flex;
-    align-items: center;           /* vertically center the image and text */
-    justify-content: space-around; /* push them to opposite sides */
-    padding: 0 3rem;
-}
-
-.left-right img {
-    display: block;
-}
-
-.left-right p {
-    margin: 0 1rem;
-    text-align: right;
-}
-
-.left-right img {
+.win-window img {
     max-height: 10rem;
 }
 
@@ -115,5 +99,256 @@ p {
 }
 
 .win95 p {
+    margin: 0;
+}
+
+.faq {
+    background-image: url("/assets/art-attack-vii/mac-bg.png");
+    background-position: top;
+    background-size: cover;
+}
+
+.faq h2 {
+    font-size: 2rem;
+}
+
+.faq summary {
+    font-size: 2rem;
+}
+
+
+.faq .faq-header h2 {
+    margin-bottom: 0.5rem;
+}
+.faq .faq-header p {
+    font-size: 1rem;
+    margin-top: 0;
+    font-family: CustomComicSans, sans-serif;
+}
+
+.window {
+    width: min(420px, 100%);
+    margin: 2rem auto;
+    color: #222;
+    background: #f4f4f4;
+    border: 1px solid #777;
+    border-radius: 7px;
+    box-shadow: 0 8px 24px rgb(0 0 0 / 25%);
+    overflow: hidden;
+    font: 14px/1.45 "Lucida Grande", "Helvetica Neue", Arial, sans-serif;
+}
+
+.titlebar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 34px;
+    padding: 0 90px;
+    cursor: pointer;
+    user-select: none;
+    background: linear-gradient(#fafafa, #d8d8d8);
+    border-bottom: 1px solid #aaa;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* Remove the browser's default disclosure marker. */
+.titlebar::-webkit-details-marker {
+    display: none;
+}
+
+.titlebar::marker {
+    content: "";
+}
+
+.window-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1.5rem;
+}
+
+.window-controls {
+    position: absolute;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.control {
+    width: 12px;
+    height: 12px;
+    border: 1px solid rgb(0 0 0 / 20%);
+    border-radius: 50%;
+    box-shadow: inset 0 1px rgb(255 255 255 / 55%),
+    0 1px 1px rgb(0 0 0 / 15%);
+}
+
+.close    { background: #ff5f57; }
+.minimize { background: #febc2e; }
+.expand   { background: #28c840; }
+
+.titlebar:hover .control {
+    filter: brightness(1.04);
+}
+
+.window-content {
+    padding: 16px 18px;
+    background: #fff;
+}
+
+.window-content h2 {
+    margin: 0 0 8px;
+    font-size: 16px;
+}
+
+.window-content p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.win-window,
+.win-window * {
+    box-sizing: border-box;
+    text-shadow: none;
+}
+
+.win-window {
+    width: min(490px, 100%);
+    color: #111;
+    font: 13px/1.4 Tahoma, Verdana, sans-serif;
+}
+
+.win-titlebar {
+    min-height: 30px;
+    padding: 3px 4px 3px 7px;
+}
+
+.win-title {
+    color: #fff;
+    font: bold 13px/1 Tahoma, Verdana, sans-serif;
+}
+
+.win-content {
+    min-height: 170px;
+    padding: 18px;
+    color: #111;
+    background: #fff;
+    text-align: left;
+    font: 13px/1.4 Tahoma, Verdana, sans-serif;
+}
+
+.win-content h2 {
+    margin: 0 0 8px;
+    font: bold 16px/1.3 Tahoma, Verdana, sans-serif;
+}
+
+.win-content p {
+    margin: 0;
+    font: 13px/1.4 Tahoma, Verdana, sans-serif;
+}
+
+.win-window {
+    width: min(420px, 100%);
+    margin: 2rem auto;
+    border: 2px solid;
+    border-color: #fff #404040 #404040 #fff;
+    background: #c0c0c0;
+    box-shadow: 1px 1px 0 #000;
+    color: #111;
+    font: 13px/1.4 Tahoma, Verdana, sans-serif;
+}
+
+.win-titlebar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 24px;
+    padding: 3px 3px 3px 6px;
+    color: #fff;
+    background: linear-gradient(90deg, #000080, #1084d0);
+    cursor: pointer;
+    user-select: none;
+}
+
+.win-title {
+    overflow: hidden;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.win-controls {
+    display: flex;
+    gap: 3px;
+    margin-left: 8px;
+}
+
+.win-button {
+    position: relative;
+    display: block;
+    flex: none;
+    width: 21px;
+    height: 21px;
+    padding: 0;
+    border: 2px solid;
+    border-color: #fff #404040 #404040 #fff;
+    background: #c0c0c0;
+    box-shadow: 1px 1px 0 #000;
+}
+
+/* Minimize: short horizontal line */
+.win-minimize::before {
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+    left: 4px;
+    height: 2px;
+    background: #111;
+    content: "";
+}
+
+/* Maximize: outlined square */
+.win-maximize::before {
+    position: absolute;
+    inset: 4px;
+    border: 1px solid #111;
+    content: "";
+}
+
+/* Close: two diagonal strokes */
+.win-close::before,
+.win-close::after {
+    position: absolute;
+    top: 8px;
+    left: 4px;
+    width: 10px;
+    height: 2px;
+    background: #111;
+    content: "";
+}
+
+.win-close::before {
+    transform: rotate(45deg);
+}
+
+.win-close::after {
+    transform: rotate(-45deg);
+}
+
+.win-content {
+    padding: 14px;
+    background: #fff;
+    border-top: 2px solid #808080;
+}
+
+.win-content h2 {
+    margin: 0 0 8px;
+    font-size: 15px;
+}
+
+.win-content p {
     margin: 0;
 }
