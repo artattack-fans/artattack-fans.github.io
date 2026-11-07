@@ -180,7 +180,45 @@ const valid = {
 			'<p>once done - create a piece of art corresponding to the SECRET PHRASE</p>' +
 			'<p>write the SECRET PHRASE, the TIME OF COMPLETION, and the AUTHORS on the back' +
 			'<p>we\'ll be watching.</p>'
-	}
+	},
+
+	/// ART ATTACK VII ///
+	// https://artattack.fans/qr/?i=d55938
+	// window.crypto.randomUUID().replaceAll('-', '').substring(0, 6)
+	'91c6d6': {
+		title: 'welcome back',
+		htmlHint: 'HINT ONE'
+	},
+
+	'4a3dae': {
+		title: 'welcome back',
+		htmlHint: 'HINT TWO'
+	},
+
+	'9e36ba': {
+		title: 'welcome back',
+		htmlHint: 'HINT THREE'
+	},
+
+	'9b80e2': {
+		title: 'welcome back',
+		htmlHint: 'HINT FOUR'
+	},
+
+	'eaf798': {
+		title: 'welcome back',
+		htmlHint: 'HINT FIVE'
+	},
+
+	'b360bd': {
+		title: 'welcome back',
+		htmlHint: 'DECOY_1'
+	},
+
+	'd55938': {
+		title: 'welcome back',
+		htmlHint: 'DECOY_2'
+	},
 };
 
 const validQRKeys = Object.keys(valid);
