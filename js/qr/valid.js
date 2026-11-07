@@ -185,40 +185,44 @@ const valid = {
 	/// ART ATTACK VII ///
 	// https://artattack.fans/qr/?i=d55938
 	// window.crypto.randomUUID().replaceAll('-', '').substring(0, 6)
+	// TRIALS OF PREPAREDNESS AND GRIT
 	'91c6d6': {
 		title: 'welcome back',
-		htmlHint: 'HINT ONE'
+		htmlHint: '<p>to the HUNT - and HAPPY HUNTING to you</p>' +
+			'<p><b>SECRET WORD: PREPAREDNESS</b></p>' +
+			'<p><b>FIRST HINT</b>: enter the digital void, and go HOME to begin</p>'
 	},
 
-	'4a3dae': {
-		title: 'welcome back',
-		htmlHint: 'HINT TWO'
+	'4a3dae': { // something to do with CLOPPY
+		title: 'warm, cozy, but no time to rest',
+		htmlHint: '<p><b>SECRET WORD: GRIT</b></p>' +
+			'<p><b>NEXT HINT</b>: welcome the FLOWERS of CLOPPY into your mind and HEART</p>'
 	},
 
-	'9e36ba': {
-		title: 'welcome back',
-		htmlHint: 'HINT THREE'
+	'9e36ba': { // DUO your LINGO
+		title: 'CLOPPY says: can i help you prepare for the DIGITAL APOCALYPSE',
+		htmlHint: '<p><b>SECRET WORD: AND</b></p>' +
+			'<p><b>NEXT HINT</b>: follow the trails and aventues of the internet to DUO your LINGO skills</p>'
 	},
 
-	'9b80e2': {
-		title: 'welcome back',
-		htmlHint: 'HINT FOUR'
+	'9b80e2': { // LEARN ABOUT the magic of firefox - a brand new browser
+		title: 'surf the WEB in style with your newfound knowledge',
+		htmlHint: '<p><b>SECRET WORD: TRIALS</b></p>' +
+			'<p><b>NEXT HINT</b>: find your SURVIVAL GUIDE by learning about the magic of FIREFOX</p>'
 	},
 
 	'eaf798': {
-		title: 'welcome back',
-		htmlHint: 'HINT FIVE'
+		title: 'YOU\'VE DONE IT',
+		htmlHint: '<p><b>SECRET WORD: OF</b></p>' +
+			'<p>you\'ve completed the HUNT, but can you complete the SECRET PHRASE?</p>' +
+			'<p>once done - add an APPLICATION WINDOW to the COMPUTER SCREEN corresponding to the SECRET PHRASE</p>' +
+			'<p>write the SECRET PHRASE, the TIME OF COMPLETION, and the AUTHORS on the back</p>' +
+			'<p>we\'ll be watching.</p>'
 	},
 
-	'b360bd': {
-		title: 'welcome back',
-		htmlHint: 'DECOY_1'
-	},
+	'b360bd': { href: 'https://www.youtube.com/watch?v=1acWg-c5Buo' }, // squid future
 
-	'd55938': {
-		title: 'welcome back',
-		htmlHint: 'DECOY_2'
-	},
+	'd55938': { href: 'https://www.youtube.com/watch?v=8d2DQF6fLgk' }, // mac vs pc
 };
 
 const validQRKeys = Object.keys(valid);
