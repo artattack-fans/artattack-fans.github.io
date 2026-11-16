@@ -11,6 +11,11 @@ document.addEventListener('readystatechange', () => {
 	GALLERY_LISTING.trim().split('\n').forEach(it => {
 		const div = create('div');
 		div.classList.add('gallery-item');
+		if (window.itemHeaderProducerFn) {
+			const header = itemHeaderProducerFn(it);
+			div.appendChild(header);
+		}
+
 		const button = create('button');
 		const img = create('img');
 		img.src = getPrefix() + it;
